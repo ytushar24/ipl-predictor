@@ -5,7 +5,7 @@ import pandas as pd
 from prediction import predict_winner
 
 # Load venue list from matches.csv
-matches = pd.read_csv("C:\\Users\\ytush\\Downloads\\archive\\matches.csv")
+matches = pd.read_csv("data/matches.csv")
 venues = sorted(matches["venue"].dropna().unique().tolist())
 
 # Set up the Streamlit UI
