@@ -11,7 +11,7 @@ X_base = pd.read_csv("./data/match_winner_features.csv")
 trained_columns = X_base.columns.tolist()
 
 # Load original team names from matches.csv to decode prediction
-matches = pd.read_csv(r"C:\\Users\\ytush\\Downloads\\archive\\matches.csv")
+matches = pd.read_csv("data/matches.csv")
 unique_teams = matches["winner"].dropna().unique()
 unique_teams.sort()  # Ensures consistency with label encoding
 
