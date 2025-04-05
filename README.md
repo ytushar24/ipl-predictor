@@ -1,0 +1,1 @@
+•	IPL Match Prediction Platform (MLOps) - Personal project using Scikit-learn, Docker, and GitHub Actions. Built CI/CD pipelines for model deployment and integrated version tracking and monitoring with KServe and Prometheus.
